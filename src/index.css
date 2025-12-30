@@ -2,7 +2,7 @@
 @import "tailwindcss";
 
 
-
+@costom-varint dark:(&:where(.dark,.dark*));
 
 *{
   font-family: "Manrope", sans-serif;
@@ -10,5 +10,5 @@
 }
 
 @theme dark {
- --color-primary: #5044E5;
-} 
+  --color-primary: #5044E5;
+}
