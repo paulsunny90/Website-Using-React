@@ -8,6 +8,7 @@ const App = () => {
     <div className='dark:bg-black relative'>
       <Navbar theme={theme} setTheme={setTheme} />
       <Hero/>  
+      <TrstudBy/>
       
     </div> 
   )
