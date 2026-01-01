@@ -8,7 +8,7 @@ const FooterFile = ({ theme,setTheme }) => {
       <div id='footer' className='flex flex-col gap-6 py-20   text-center w-full overflow-hidden text-gray-700 dark:text-white pt-50' >
 
       <div className='grid  grid-cols-4  text-center pt-10  max-md:grid-cols-3 max-sm:grid-cols-2  '>
-        <div className=' max-md:col-span-3 max-md:pb-30 '>
+        <div className=' max-md:col-span-3 max-md:pb-10 '>
            <img src={theme === "dark" ? assets.logo_dark : assets.logo} alt="" className="w-52  pl-10" />
           
         </div>
@@ -26,7 +26,7 @@ const FooterFile = ({ theme,setTheme }) => {
 
         </div>
 
-        <div className='max-sm:col-span-2 grid grid-row-3  gap-4 max-sm:pt-30 text-center pb-5'>
+        <div className='max-sm:col-span-2 grid grid-row-3  gap-4 max-sm:pt-10 text-center pb-5'>
           <h1>LEGAL</h1>
           <p className="max-w-lg text-center text-gray-500 dark:text-white/75 ">Privacy Policy</p>
           <p className="max-w-lg text-center text-gray-500 dark:text-white/75 ">Terms & Conditions</p>
