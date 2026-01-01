@@ -27,7 +27,7 @@ function ContactUs() {
     }
   };
 return (
-    <div className='flex flex-col items-center gap-7 pt-40 px-4 sm:px-12 lg:px-24 xl:px-40 text-center  text-gray-700 dark:text-white'>
+    <div id='Contact Us' className='flex flex-col items-center gap-7 pt-40 px-4 sm:px-12 lg:px-24 xl:px-40 text-center  text-gray-700 dark:text-white'>
       <Title title={"Reach out to us"} desc={`Rady to grow your barand? let's conect and buled something exceptional togther.`} />
       <form action=""onSubmit={onSubmit} className='grid mb-2 grid-cols-2 gap-3 sm:gap-5 max-w-2xl w-full text-stsrt ' >
         <div className=''>
