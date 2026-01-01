@@ -6,6 +6,7 @@ import Services from './components/Services'
 import OurWork from './components/OurWork'
 import Teams from './components/Teams'
 import ContactUs from './components/ContactUs'
+import FooterFile from'./components/Footer'
 
 
 const App = () => {
@@ -20,6 +21,10 @@ const App = () => {
       <OurWork/>
       <Teams/>
       <ContactUs/>
+      <FooterFile theme={theme} setTheme={setTheme} />
+    
+
+      
     
      
       
