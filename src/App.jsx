@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import Navbar from './components/Navbar'
 
-import Hero from './components/hero'
+import Hero from './components/Heroo.jsx'
 import TrustedBy from './components/TrustedBy'
-import Services from './components/services.jsx'
+import Services from './components/Servicess.jsx'
 import OurWork from './components/OurWork'
 import Teams from './components/Teams'
 import ContactUs from './components/ContactUs'
